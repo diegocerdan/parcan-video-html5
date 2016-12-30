@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <title>Parcan Video HTML5 Test</title>
+</head>
+
+<body>
+    <script src="jwplayer/jwplayer.js"></script>
+    <script>jwplayer.key="U3jVvfzlp0MeK0pvoMmaoEmuKqKBOQr6MHztbR6J4QE8jQOuwdqj7YG2PXY=";</script>
+
+  ​  <div id='my-video'></div>
+
+    <script type='text/javascript'>
+      jwplayer('my-video').setup({
+            file: 'http://test.parcan.es:1935/seneca/mp4:0000003534.mp4/manifest.mpd',
+      });
+    </script>
+</body>
+</html>
